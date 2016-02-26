@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'questa_granderegular';
+    src: url('./fonts/2-questa_grande_regular_31-webfont.eot');
+    src: url('./fonts/2-questa_grande_regular_31-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/2-questa_grande_regular_31-webfont.woff2') format('woff2'),
+         url('./fonts/2-questa_grande_regular_31-webfont.woff') format('woff'),
+         url('./fonts/2-questa_grande_regular_31-webfont.ttf') format('truetype'),
+         url('./fonts/2-questa_grande_regular_31-webfont.svg#questa_granderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 4em auto;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'questa_granderegular', serif;
+  letter-spacing: 0.02em;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: .25em 0;
+  font-size: 1em;
+}
+
+li > a {
+  text-decoration: none;
+  color: #333;
+}
+
+li > a:after {
+  content: "";
+}
+
+li > a:hover {
+  border-bottom: solid .2em #00ff00;
+}
+
+li > a:hover:after {
+  content: "\207A";
+  color: #00ff00;
+  border: none;
+  padding-left: .4em;
+}
+
+a:active {
+  color: #00ff00;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  border-bottom: solid .2em #00ff00;
+}
+
+p {
+  padding-top: 2em;
+}
+
+.navigation {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.navigation > h1 {
+  border: solid 1px #666;
+  border-left: none;
+  border-right: none;
+  padding: .8em 0;
+  margin:0;
+}
+
+.navigation > ul {
+  border-bottom: solid .2em #333;
+  padding: 3em 0;
+  margin: 0;
+  font-size: 1.25em;
+}
