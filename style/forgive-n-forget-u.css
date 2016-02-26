@@ -1,5 +1,9 @@
+body {
+  text-align: center;
+}
+
 div.go-home {
-  padding: 2em;
+  padding: 1em;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -19,16 +23,14 @@ div.go-home {
   color: #00ff00;;
 }
 
-div.truth {
-  max-width: 500px;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .container {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1050px;
+  margin: auto;
   z-index: -999;
   transition-timing-function: cubic-bezier(.42, 0, .58, 1);
   -webkit-animation: fadein 100s; /* Safari, Chrome and Opera > 12.1 */
